@@ -1,0 +1,164 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ExampleWebApi</name>
+    </assembly>
+    <members>
+        <member name="M:ExampleWebApi.Controllers.CitiesController.#ctor(ExampleWebApi.Repositories.IRepository)">
+            <summary>
+            
+            </summary>
+            <param name="db"></param>
+        </member>
+        <member name="M:ExampleWebApi.Controllers.CitiesController.#ctor(Microsoft.Extensions.Logging.ILogger{ExampleWebApi.Controllers.CitiesController})">
+            <summary>
+            
+            </summary>
+            <param name="logger"></param>
+        </member>
+        <member name="M:ExampleWebApi.Controllers.CitiesController.GetCities">
+            <summary>
+            Get Cities
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ExampleWebApi.Controllers.CitiesController.Create(ExampleWebApi.Models.City)">
+            <summary>
+            save user
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:ExampleWebApi.Controllers.UsersController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ExampleWebApi.Controllers.UsersController.#ctor(ExampleWebApi.Repositories.IRepository)">
+            <summary>
+            
+            </summary>
+            <param name="db"></param>
+        </member>
+        <member name="M:ExampleWebApi.Controllers.UsersController.#ctor(Microsoft.Extensions.Logging.ILogger{ExampleWebApi.Controllers.UsersController})">
+            <summary>
+            
+            </summary>
+            <param name="logger"></param>
+        </member>
+        <member name="M:ExampleWebApi.Controllers.UsersController.GetAll">
+            <summary>
+            Get All Users
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ExampleWebApi.Controllers.UsersController.Create(ExampleWebApi.Models.User)">
+            <summary>
+            save user
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:ExampleWebApi.Models.EFDBContext">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ExampleWebApi.Models.EFDBContext.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{ExampleWebApi.Models.EFDBContext})">
+            <summary>
+            
+            </summary>
+            <param name="options"></param>
+        </member>
+        <member name="P:ExampleWebApi.Models.EFDBContext.City">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ExampleWebApi.Models.EFDBContext.User">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:ExampleWebApi.Repositories.EFRepository">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ExampleWebApi.Repositories.EFRepository.#ctor(ExampleWebApi.Models.EFDBContext)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:ExampleWebApi.Repositories.EFRepository.GetAllUsers">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ExampleWebApi.Repositories.EFRepository.GetAllCities">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ExampleWebApi.Repositories.EFRepository.CreateUser(ExampleWebApi.Models.User)">
+            <summary>
+            
+            </summary>
+            <param name="item"></param>
+        </member>
+        <member name="M:ExampleWebApi.Repositories.EFRepository.CreateCity(ExampleWebApi.Models.City)">
+            <summary>
+            
+            </summary>
+            <param name="item"></param>
+        </member>
+        <member name="M:ExampleWebApi.Repositories.EFRepository.DeleteUser(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ExampleWebApi.Repositories.EFRepository.DeleteCity(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ExampleWebApi.Repositories.EFRepository.GetUser(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ExampleWebApi.Repositories.EFRepository.GetCity(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ExampleWebApi.Repositories.EFRepository.UpdateUser(ExampleWebApi.Models.User)">
+            <summary>
+            
+            </summary>
+            <param name="item"></param>
+        </member>
+        <member name="M:ExampleWebApi.Repositories.EFRepository.UpdateCity(ExampleWebApi.Models.City)">
+            <summary>
+            
+            </summary>
+            <param name="item"></param>
+        </member>
+        <member name="M:ExampleWebApi.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            
+            </summary>
+            <param name="services"></param>
+            This method gets called by the runtime. Use this method to add services to the container.
+        </member>
+    </members>
+</doc>
