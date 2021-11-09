@@ -1,6 +1,6 @@
 # WinFormsVsWebApiCoreVcSqlite
 
-ExampleWebApi simple example WebApiCore with db(SqLite) \n
+ExampleWebApi simple example WebApiCore with db(SqLite)
 
 TestWinApp_verOne only local db(SqLite) 
 
